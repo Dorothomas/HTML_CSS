@@ -4,7 +4,7 @@ box-sizing: border-box;
 }
 
 html {
-    font-family: "Roboto-Mono", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
 
@@ -27,7 +27,7 @@ header .content {
 
 header .logo {
     flex: 1;
-    font-family: "Bitcoin Grid Double", sans-serif;
+    font-family: "Roboto-mono", sans-serif;
     font-size: 1.5rem;
     color: #4a4a4a;
     text-decoration: none;
@@ -54,8 +54,8 @@ nav a {
 }
 
 header .icon {
-    width: 2.5rem;
-    padding: 0 .75rem  ;
+    width: 1rem;
+    padding-left: .75rem  ;
 }
 
 header .mobile {
@@ -64,7 +64,8 @@ header .mobile {
 
 /* Main Conent Section */
 body {
-    background-color: red;
+    background-image: src "./resources/images/banner-landingpage.jpg";
+    background-size: cover;
 }
 
 /* Mobile screen specifics, may have to reduce max screen width */
