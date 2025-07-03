@@ -1,0 +1,126 @@
+/* Universal Styles */
+* {
+box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto-Mono", sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: .857rem 1.875rem;
+}
+
+header .logo {
+    flex: 1;
+    font-family: "Bitcoin Grid Double", sans-serif;
+    font-size: 1.5rem;
+    color: #4a4a4a;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav li {
+    padding-left: 3.5rem;
+    
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+header .icon {
+    width: 2.5rem;
+    padding: 0 .75rem  ;
+}
+
+header .mobile {
+    display: none;
+}
+
+/* Main Conent Section */
+body {
+    background-color: red;
+}
+
+/* Mobile screen specifics, may have to reduce max screen width */
+
+/*
+@media only screen and (max-width: 500px) {
+    header .desktop {
+        display: none;
+        width: 100%;
+    }
+
+    header .mobile {
+        display: block;
+        padding-right: 3.5rem;
+    }
+
+    header .content {
+        padding: .5rem 0;
+    }
+
+    header .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    header .mobile li {
+    padding: 0;
+    }
+
+    header .mobile .button {
+        padding: .1875rem .5rem;
+        background-color: #9dc20b;
+        line-height: 1.6;
+        color: white;
+        border-radius: 4px;
+    }
+}
+ */
+
+
+/* Sign Up Section */
+
+
+
+/* Features Section */
+
+
+
+/* Filters Section */
+
+
+
+/* Quotes Section */
+
+
+
+/* Footer */
